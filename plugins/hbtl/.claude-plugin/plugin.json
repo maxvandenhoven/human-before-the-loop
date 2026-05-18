@@ -1,9 +1,0 @@
-{
-  "name": "hbtl",
-  "description": "Claude Code plugin to front-load thinking with PRD grilling sessions, then hand off to autonomous subagents.",
-  "version": "0.1.0",
-  "author": {
-    "name": "Max van den Hoven",
-    "email": "max.hoven@gmail.com"
-  }
-}
