@@ -55,6 +55,8 @@ For each approved slice, create a GitHub issue using `gh issue create`. Use the 
 
 Create issues in dependency order (blockers first) so you can reference real issue numbers in the "Blocked by" field.
 
+After each `gh issue create`, for every "Blocked by #N" entry in the new issue's body, also encode the dependency in GitHub's native issue-dependency graph using the `05-manage-issue-blockers` skill. The text in the body is for human readers; the API link actually encodes the DAG.
+
 <issue-template>
 ## Parent PRD
 
